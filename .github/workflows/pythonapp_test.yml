@@ -3,7 +3,9 @@
 
 name: Everyday Data Collections Action
 
-on: issues
+on:
+  schedule:
+    - cron:  '* 12 * * *'
 
 jobs:
   build:

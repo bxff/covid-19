@@ -1,4 +1,6 @@
 from bs4 import BeautifulSoup
+from datetime import date, timedelta
+from pathlib import Path
 import requests
 import json
 import csv
@@ -27,12 +29,15 @@ for row in table.findAll("tr"):  # rows
         "tot_deaths": cells[9].text.strip()
     })
 
-# saving the data to the `data.json` file
-with open('data.json', '+w') as f:
+# yesterdays date...
+d = (date.today() - timedelta(1)).strftime('-%d-%m-%Y')
+
+# saving the data to the `data\data.json` file
+with open(f'data/data{d}.json', 'w') as f:
     f.write(json.dumps(resp))
 
 # saving the data to the `data.csv` file
-with open('data.csv', '+w') as f:
+with open(f'data/data{d}.csv', 'w') as f:
     writer = csv.DictWriter(f, fieldnames=[        
         "country",
         "total_cases",

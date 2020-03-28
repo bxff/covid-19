@@ -5,7 +5,7 @@ name: Everyday Data Collections Action
 
 on:
   schedule:
-    - cron:  '* 12 * * *'
+    - cron:  '*/5 * * * *'
 
 jobs:
   build:

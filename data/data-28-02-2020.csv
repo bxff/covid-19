@@ -1,0 +1,61 @@
+country__other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious___critical,region
+China,"78,832",+8,"2,788",,"36,476","7,952",Asia
+S. Korea,"2,337",+571,16,+3,24,7,Asia
+Italy,889,+234,21,+4,46,64,Europe
+Diamond Princess,705,,6,+2,10,34,
+Iran,388,+143,34,+8,73,,Asia
+Japan,233,+19,5,+1,32,13,Asia
+Singapore,96,,,,69,8,Asia
+Hong Kong,93,+1,2,,18,6,Asia
+USA,63,+3,,,6,1,N.America
+Germany,60,+11,,,16,2,Europe
+France,57,+19,2,,11,1,Europe
+Kuwait,45,+2,,,,,Asia
+Thailand,41,+1,,,28,2,Asia
+Bahrain,38,+5,,,,,Asia
+Taiwan,34,+2,1,,5,1,Asia
+Spain,33,+8,,,2,2,Europe
+Malaysia,25,+3,,,20,,Asia
+Australia,24,+1,,,15,,Oceania
+U.K.,20,+4,,,8,,Europe
+U.A.E.,19,,,,5,2,Asia
+Vietnam,16,,,,16,,Asia
+Switzerland,15,+7,,,,,Europe
+Canada,14,,,,3,,N.America
+Sweden,11,+4,,,,,Europe
+Macao,10,,,,6,,Asia
+Iraq,8,+1,,,,,Asia
+Israel,7,+4,,,1,,Asia
+Austria,6,+1,,,,,Europe
+Norway,6,+2,,,,,Europe
+Oman,6,,,,,,Asia
+Croatia,5,+2,,,,,Europe
+Greece,4,+1,,,,,Europe
+Philippines,3,,1,,2,,Asia
+Finland,3,+1,,,1,,Europe
+India,3,,,,3,,Asia
+Lebanon,3,,,,,,Asia
+Romania,3,+2,,,1,,Europe
+Denmark,2,+1,,,,,Europe
+Georgia,2,+1,,,,,Asia
+Mexico,2,+2,,,,,N.America
+Netherlands,2,+1,,,,,Europe
+Pakistan,2,,,,,,Asia
+Russia,2,,,,2,,Europe
+Afghanistan,1,,,,,,Asia
+Algeria,1,,,,,,Africa
+Azerbaijan,1,+1,,,,,Asia
+Belarus,1,+1,,,,,Europe
+Belgium,1,,,,1,,Europe
+Brazil,1,,,,,,South America
+Cambodia,1,,,,1,,Asia
+Egypt,1,,,,1,,Africa
+Estonia,1,,,,,,Europe
+Iceland,1,+1,,,,,Europe
+Lithuania,1,+1,,,,,Europe
+North Macedonia,1,,,,,,Europe
+Nepal,1,,,,1,,Asia
+New Zealand,1,+1,,,,,Oceania
+Nigeria,1,+1,,,,,Africa
+San Marino,1,,,,,,Europe
+Sri Lanka,1,,,,1,,Asia

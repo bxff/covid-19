@@ -1,4 +1,6 @@
 .idea/
 .vs_code/
 _test.py
-
+old_html_data/
+test.html
+*/__pycache__/

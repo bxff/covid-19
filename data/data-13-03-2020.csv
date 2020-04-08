@@ -1,0 +1,140 @@
+country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop
+China,"80,817",+3,"3,177",,"64,152","13,488","4,020",56.1
+Italy,"17,660","+2,547","1,266",+250,"1,439","14,955","1,328",292.1
+Iran,"11,364","+1,289",514,+85,"3,529","7,321",,135.3
+S. Korea,"7,979",+110,71,+5,510,"7,398",93,155.6
+Spain,"5,232","+2,086",133,+47,193,"4,906",190,111.9
+Germany,"3,675",+930,8,+2,46,"3,621",9,43.9
+France,"3,661",+785,79,+18,12,"3,570",154,56.1
+USA,"2,269",+572,48,+7,41,"2,180",10,6.9
+Switzerland,"1,139",+271,11,+4,4,"1,124",,131.6
+Norway,996,+196,1,,1,994,27,183.7
+Sweden,814,+127,1,,1,812,2,80.6
+Netherlands,804,+190,10,+5,2,792,1,46.9
+Denmark,801,+127,,,1,800,2,138.3
+UK,798,+208,11,+1,18,769,20,11.8
+Japan,701,+10,19,,118,564,29,5.5
+Diamond Princess,696,,7,,325,364,32,
+Belgium,559,+160,3,,1,555,2,48.2
+Austria,504,+143,1,,6,497,1,56.0
+Qatar,320,+58,,,,320,,111.1
+Bahrain,210,+13,,,44,166,1,123.4
+Singapore,200,+13,,,97,103,11,34.2
+Australia,199,+43,3,,26,170,1,7.8
+Canada,198,+56,1,,11,186,1,5.2
+Malaysia,197,+39,,,32,165,4,6.1
+Greece,190,+73,1,,2,187,2,18.2
+Finland,155,+46,,,1,154,,28.0
+Brazil,151,+74,,,,151,2,0.7
+Czechia,141,+25,,,,141,2,13.2
+Slovenia,141,+45,,,,141,4,67.8
+Iceland,134,+17,,,,134,,
+Hong Kong,132,+1,4,+1,77,51,4,17.6
+Israel,126,+17,,,4,122,2,14.6
+Portugal,112,+34,,,1,111,1,11.0
+Iraq,101,+18,9,+1,24,68,,2.5
+Kuwait,100,+20,,,5,95,4,23.4
+Ireland,90,+20,1,,,89,6,18.2
+Romania,89,+30,,,7,82,1,4.6
+Saudi Arabia,86,+41,,,1,85,,2.5
+UAE,85,,,,20,65,2,8.6
+India,82,+8,2,+1,10,70,,0.1
+San Marino,80,+8,5,,2,73,3,
+Egypt,80,,2,,27,51,,0.8
+Estonia,79,+52,,,,79,,59.6
+Lebanon,77,+9,3,,1,73,3,11.3
+Thailand,75,+5,1,,35,39,1,1.1
+Indonesia,69,+35,4,+3,5,60,,0.3
+Poland,68,+17,2,+1,,66,3,1.8
+Philippines,64,+12,5,,2,57,1,0.6
+Taiwan,50,+1,1,,20,29,,2.1
+Russia,45,+11,,,8,37,,0.3
+Vietnam,44,,,,16,28,,0.5
+Chile,43,+10,,,,43,,2.2
+Brunei,37,+12,,,,37,,
+Serbia,35,+11,,,,35,1,4.0
+Palestine,35,+4,,,,35,,6.9
+Luxembourg,34,+8,,,,34,1,
+Albania,33,+10,1,,,32,,11.5
+Croatia,32,+5,,,1,31,,7.8
+Slovakia,32,+11,,,,32,,5.9
+Argentina,31,,2,+1,,29,1,0.7
+Pakistan,28,+7,,,2,26,,0.1
+Peru,28,+6,,,,28,,0.8
+Panama,27,+13,1,,,26,,6.3
+Belarus,27,+6,,,3,24,,2.9
+Algeria,26,,2,,10,14,,0.6
+Georgia,25,,,,,25,1,6.3
+South Africa,24,+8,,,,24,,0.4
+Bulgaria,23,,1,,,22,,3.3
+Costa Rica,23,,,,,23,1,4.5
+Ecuador,19,+2,,,,19,1,1.1
+Oman,19,+1,,,9,10,,3.7
+Hungary,19,+3,,,,19,,2.0
+Bosnia and Herzegovina,18,+7,,,,18,,5.5
+Latvia,17,+1,,,1,16,,9.0
+Tunisia,16,+3,,,,16,2,1.4
+Azerbaijan,15,,1,,3,11,,1.5
+North Macedonia,14,+5,,,1,13,,6.7
+Cyprus,14,+4,,,,14,,11.6
+Colombia,13,+4,,,,13,,0.3
+Mexico,12,,,,4,8,1,0.1
+Malta,12,+3,,,1,11,,
+Macao,10,,,,10,0,,
+Senegal,10,,,,2,8,,0.6
+Maldives,9,+1,,,,9,,
+Armenia,8,+2,,,,8,,2.7
+Jamaica,8,+6,,,,8,,2.7
+Morocco,7,+1,1,,1,5,1,0.2
+Afghanistan,7,,,,,7,,0.2
+Cambodia,7,+2,,,1,6,,0.4
+Lithuania,6,+3,,,,6,,2.2
+Sri Lanka,6,+3,,,1,5,,0.3
+French Guiana,6,,,,,6,,
+Moldova,6,,,,,6,,1.5
+Paraguay,6,,,,,6,1,0.8
+Dominican Republic,5,,,,,5,,0.5
+New Zealand,5,,,,,5,,1.0
+Réunion,5,+1,,,,5,,
+Turkey,5,+4,,,,5,,0.1
+Cuba,4,+1,,,,4,,0.4
+Kazakhstan,4,+4,,,,4,,0.2
+Liechtenstein,4,,,,,4,,
+Ukraine,3,,1,+1,,2,,0.1
+Bangladesh,3,,,,1,2,,
+Bolivia,3,,,,,3,,0.3
+Channel Islands,3,,,,,3,,
+Faeroe Islands,3,+1,,,,3,,
+French Polynesia,3,+2,,,,3,,
+Martinique,3,,,,,3,,
+Monaco,2,,,,,2,,
+Nigeria,2,,,,,2,,
+Aruba,2,+2,,,,2,,
+Burkina Faso,2,,,,,2,,0.1
+Cameroon,2,,,,,2,,0.1
+DRC,2,+1,,,,2,,
+Ghana,2,,,,,2,,0.1
+Honduras,2,,,,,2,,0.2
+Saint Martin,2,,,,,2,,
+Venezuela,2,+2,,,,2,,0.1
+Guyana,1,,1,,,0,,
+Sudan,1,+1,1,+1,,0,,
+Andorra,1,,,,,1,,
+Jordan,1,,,,1,0,,0.1
+Nepal,1,,,,1,0,,
+Antigua and Barbuda,1,+1,,,,1,,
+Bhutan,1,,,,,1,,
+Cayman Islands,1,+1,,,,1,,
+Ivory Coast,1,,,,,1,,
+Ethiopia,1,+1,,,,1,,
+Gabon,1,+1,,,,1,,0.4
+Gibraltar,1,,,,1,0,,
+Guadeloupe,1,+1,,,,1,,
+Guinea,1,+1,,,,1,,0.1
+Vatican City,1,,,,,1,,
+Kenya,1,+1,,,,1,,
+Mongolia,1,,,,,1,,0.3
+St. Barth,1,,,,,1,,
+St. Vincent Grenadines,1,,,,,1,,
+Togo,1,,,,,1,,0.1
+Trinidad and Tobago,1,,,,,1,,0.7

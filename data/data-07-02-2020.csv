@@ -1,0 +1,29 @@
+country__territory,total_cases,feb_6_feb_7__cases,total_deaths,feb_6_feb_7__deaths,total_recovered,total_critical,region
+China,"31,210","+3,192",636,+73,"1,747","4,821",Asia
+Japan,86,+41,,,4,,Asia
+Singapore,33,+5,,,2,1,Asia
+Hong Kong,25,+4,1,,,,Asia
+Thailand,25,,,,9,1,Asia
+S. Korea,24,+1,,,2,,Asia
+Taiwan,16,+5,,,1,,Asia
+Malaysia,15,+3,,,1,,Asia
+Australia,15,+1,,,5,,Oceania
+Germany,13,+1,,,,,Europe
+Vietnam,12,+2,,,3,,Asia
+USA,12,,,,1,,N.America
+Macao,10,,,,,,Asia
+Canada,7,+2,,,,,N.America
+France,6,,,,,1,Europe
+U.A.E.,5,,,,,,Asia
+Philippines,3,,1,,,,Asia
+India,3,,,,,,Asia
+U.K.,3,+1,,,,,Europe
+Italy,3,+1,,,,2,Europe
+Russia,2,,,,,,Europe
+Sri Lanka,1,,,,1,,Asia
+Cambodia,1,,,,1,,Asia
+Finland,1,,,,1,,Europe
+Nepal,1,,,,,,Asia
+Sweden,1,,,,,,Europe
+Spain,1,,,,,,Europe
+Belgium,1,,,,,,Europe

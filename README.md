@@ -1,4 +1,4 @@
-# Corona
+# covid-19
 
 Scraping covid-19 data from [worldometers.info](worldometers.info)
 

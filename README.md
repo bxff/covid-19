@@ -22,7 +22,7 @@ It does two things:
 
 > ***Note***: *More usage is on its way*
 
-## Installation
+### Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.
 

@@ -28,4 +28,7 @@ def getYesterdaysDateFileName():
     d = 'data' + (date.today() - timedelta(1)).strftime('-%d-%m-%Y')
     return d
 
+if __name__ == "__main__":
+    main()
+
 # Link-Used: https://www.worldometers.info/coronavirus/#countries

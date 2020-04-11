@@ -15,9 +15,11 @@ def main():
     last_timestamp_objects = getLastTimeStamps(all_timestamps)
     for i in last_timestamp_objects:
         print("[!] Getting the `file_name` of the old data")
+        print("[!] `file_name`: "+"data"+i.timestamp.strftime('-%d-%m-%Y'))
         file_name = "data"+i.timestamp.strftime('-%d-%m-%Y')
         print("[!] Getting the `raw_url` of the old data")
         print("[!] `raw_url`: "+str(i.raw_url))
+        print("[!] `view_url`: "+str(i.view_url))
         raw_url = i.raw_url
         
         print("[!] Getting the http request from `raw_url`")

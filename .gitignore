@@ -4,4 +4,9 @@ _test.py
 old_html_data/
 test.html
 */__pycache__/
+
+# on progress but may never be released
 check_missing_data.py
+
+# for scrap errors
+scrap_error.txt

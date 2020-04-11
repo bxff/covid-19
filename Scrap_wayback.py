@@ -53,6 +53,14 @@ def main():
 
         print("[!] Getting the `raw_html` from the response")
         raw_html = response.text
+        print("[!] Checking for database 1040 error from WayBackMachine")
+        check_for_server_error = raw_html.find('Database connection failed: Too many connections (1040)')
+        if check_for_server_error >= 0:
+            with open('scrap_error.txt', '+a') as f:
+                f.write(f"[!] couldent fetch from {raw_url} because of database error 1040(too many connections)")
+                print("[!] 1040 Database Error")
+                print("[!] Continuing without Scraping this `raw_url`")
+            continue
         print("[!] Souping the `raw_html`")
         soup = BeautifulSoup(raw_html, 'html.parser')
         print("[!] Getting the table")

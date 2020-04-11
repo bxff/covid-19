@@ -22,10 +22,7 @@ def getTableList(soup_object:object):
 
     # getting the table
     resp = []  # init list
-    try:
-        table = soup_object.findAll("tbody")[2]  # today's table
-    except IndexError:  # older pages dident have the yesterdays feature
-        table = soup_object.findAll("tbody")[0]
+    table = soup_object.findAll("tbody")[0]  # today's table
     for row in table.findAll("tr"):  # rows
         cells = row.findAll("td")  # cells
         resp_add_dict = {}  # dict to be added to `resp` dict

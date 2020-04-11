@@ -39,20 +39,16 @@ def getTableList(soup_object:object):
 def getLastTimeStamps(timestamps:list):
     last_timestamp_objects = []
 
-    for index in range(0, len(timestamps)):  # getting the last timestamp
-        todays_timestamp = timestamps[index].timestamp.strftime('%d-%m-%Y')
-
-        if len(timestamps)-1 == index:  # last value check
-            if todays_timestamp == yesterdays_timestamp:
-                pass
-            else: last_timestamp_objects.append(timestamps[index])
-        else:  # all values check
-            tomorrows_timestamp = timestamps[index+1].timestamp.strftime('%d-%m-%Y')
-            yesterdays_timestamp = timestamps[index-1].timestamp.strftime('%d-%m-%Y')
-
-            if todays_timestamp == tomorrows_timestamp:
-                pass
-            else: last_timestamp_objects.append(timestamps[index])
+    timestamps.sort()
+    for i in range(1, len(timestamps)):
+        today = timestamps[i].timestamp.strftime('%d-%m-%Y')
+        yesterday = timestamps[i-1].timestamp.strftime('%d-%m-%Y')
+        if today == yesterday:
+            pass
+        else:
+            last_timestamp_objects.append(timestamps[i-1])
+    timestamps.reverse()
+    last_timestamp_objects.append(timestamps[0])
     return last_timestamp_objects
 
 

@@ -6,26 +6,32 @@ import requests
 import json
 import csv
 
-
-raw_html = requests.get("https://www.worldometers.info/coronavirus/#countries").text
-soup = BeautifulSoup(raw_html, 'html.parser')
-
-''' Comments for working over a local file '''
-# with open("raw_test.html", "r") as f: html = f.read()
-# soup = BeautifulSoup(raw_html, 'html.parser')
-
 def main():
+
+    print("[!] Starting `Scrap.py`")
+
+    ''' Comments for working over a local file '''
+    # print("[!] Getting the http request")
+    # with open("raw_test.html", "r") as f: html = f.read()
+    # soup = BeautifulSoup(raw_html, 'html.parser')
+
+    print("[!] Getting the http request")
     raw_html = requests.get("https://www.worldometers.info/coronavirus/#countries").text
+    print("[!] Souping the responce")
     soup = BeautifulSoup(raw_html, 'html.parser')
+    print("[!] Getting the table")
     titles, data = getTableList(soup_object=soup)
-    file_name = getYesterdaysDateFileName()
+    print("[!] Getting todays date")
+    file_name = getTodaysDateFileName()
+    print("[!] Saving the files into .json formate")
     setJsonFile(file_name, data)
+    print("[!] Saving the files into .csv formate")
     setCsvFile(file_name, titles, data)
-    # print("[!] Completed") <<< for testing
+    print("[!] Completed")
 
 
-def getYesterdaysDateFileName():
-    d = 'data' + (date.today() - timedelta(1)).strftime('-%d-%m-%Y')
+def getTodaysDateFileName():
+    d = 'data' + date.today().strftime('-%d-%m-%Y')
     return d
 
 if __name__ == "__main__":

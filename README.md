@@ -45,7 +45,7 @@ python3 Scrap_wayback.py
 ## TODO
 
 * Work apon making more usable code
-    * Make it so that it can run from shell
+    * Make `Scrap_wayback.py` use multiprocess for faster processing
     * Make it so that it can scrap data for today and of any onder dates from the Way Back Machine
 * Make a pipy library from it
     * Make a proper doc of how to use the lib

@@ -28,26 +28,35 @@ python3 -m pip install -r requirements.txt
 
 ## Usage
 
-> ***Note***: *More usage is on its way*
-
 Run the yesterdays scrap locally:
 
 ```bash
 python3 Scrap.py
 ```
 
-Scrap all dates data from [worldometers](https://www.worldometers.info/coronavirus):
-> ***Note***: *An `scrap_error.txt` file will be created if not already created and will append the error file with the  `raw_url` which can be used incase of an `1040 Database Error` from WayBackMachine*
+Scrap all dates data from [worldometers](https://www.worldometers.info/coronavirus) over WayBackMachine:
+> ***Note***: *An `scrap_error.txt` file will be created if not already created and will append the error file with the  `raw_url` which can be used incase of an `1040 Database Error` from WayBackMachine when Scrap_wayback.py file is ran*
 
 ```bash
 python3 Scrap_wayback.py
+```
+
+Scrap data from a particular `date` over WayBackMachine:
+
+```bash
+python3 Scrap_wayback.py [<--date>|<-d>] <last-snapshot|first-snapshot> <date-like-29-01-2020>
+```
+
+Scrap data from a particular `raw_url` over WayBackMachine:
+
+```bash
+python3 Scrap_wayback.py [<--raw-url>|<-r>] <raw_url>
 ```
 
 ## TODO
 
 * Work apon making more usable code
     * Make `Scrap_wayback.py` use multiprocess for faster processing
-    * Make it so that it can scrap data for today and of any onder dates from the Way Back Machine
 * Make a pipy library from it
     * Make a proper doc of how to use the lib
 * Work on better README

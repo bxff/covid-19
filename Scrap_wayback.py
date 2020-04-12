@@ -1,8 +1,8 @@
-from lib import *
 from wayback import WaybackClient
 from bs4 import BeautifulSoup
-import requests
 from sys import argv
+from lib import *
+import requests
 
 
 def main():

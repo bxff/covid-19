@@ -1,8 +1,4 @@
-from lib import getLastTimeStamps, getFirstTimeStamps 
-from lib import getCheckDatabaseError, getCheckSnapshot
-from lib import getTableList
-from lib import getResponceFromRawUrl
-from lib import setCsvFile, setJsonFile
+from lib import *
 from wayback import WaybackClient
 from bs4 import BeautifulSoup
 import requests

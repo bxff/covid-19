@@ -1,4 +1,4 @@
-from lib import getTableList, setCsvFile, setJsonFile
+from lib import *
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
 from pathlib import Path

@@ -5,6 +5,7 @@ from pathlib import Path
 import requests
 import json
 import csv
+import os
 
 def getTableList(soup_object:object):
     # getting headers(titles) for the table
@@ -34,6 +35,7 @@ def getTableList(soup_object:object):
             })
         resp.append(resp_add_dict)
     return titles, resp
+
 
 def getResponceFromRawUrl(raw_url:str):
     # using requests instent of client.get_memento(raw_url) as its buggy in the time of the creation of this code
@@ -66,6 +68,7 @@ def getResponceFromRawUrl(raw_url:str):
     #         pass
     # return response
 
+
 def getCheckDatabaseError(raw_html:str, raw_url:str):
     check_for_server_error = raw_html.find('Database connection failed: Too many connections (1040)')
     if check_for_server_error >= 0:
@@ -75,6 +78,7 @@ def getCheckDatabaseError(raw_html:str, raw_url:str):
             print("[!] Exiting without Scraping this `raw_url`")
         exit(0)
     else: print("[!] No errors found")
+
 
 def getCheckSnapshot(snapshot_time, all_timestamps):
     if snapshot_time == 'last-snapshot':
@@ -135,3 +139,23 @@ def setCsvFile(name:str, titles:list, json_data:dict):
         writer.writeheader()
         for i in json_data:
             writer.writerow(i)
+
+
+def getOrderedFileNames(directory:str):
+    # Getting all file names
+    files_list = os.listdir(directory)
+    
+    # Automated sorting(not fully affective, but required)
+    files_list.sort()
+
+    files_ordered_list = []
+    # Clearing the first data(`.DONT_DELETE_THIS_FILE`)
+    del(files_list[0])
+
+    # Ordering the data manualy
+    for i in range(1,13):  # 1..12
+        for file_name in files_list:
+            if int(file_name[9:10]) == i:
+                files_ordered_list.append(file_name)
+    
+    return files_ordered_list

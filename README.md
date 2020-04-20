@@ -57,6 +57,7 @@ python3 Scrap_wayback.py [<--raw-url>|<-r>] <raw_url>
 
 * Work apon making more usable code
     * Make `Scrap_wayback.py` use multiprocess for faster processing
+    * Make a cleaner python application to clean the data from `statistics/curve/get_data.py`
 * Make a pipy library from it
     * Make a proper doc of how to use the lib
 * Work on better README

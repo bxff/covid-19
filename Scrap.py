@@ -1,7 +1,7 @@
 from datetime import date, timedelta
 from bs4 import BeautifulSoup
+from lib.imports import *
 from pathlib import Path
-from lib import *
 import requests
 import json
 import csv

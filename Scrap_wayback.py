@@ -1,7 +1,7 @@
 from wayback import WaybackClient
 from bs4 import BeautifulSoup
+from lib.imports import *
 from sys import argv
-from lib import *
 import requests
 
 
@@ -78,7 +78,7 @@ def main():
         print("[!] Getting the `raw_html` from the response")
         raw_html = response.text
         print("[!] Checking for database 1040 error from WayBackMachine")
-        getCheckDatabaseError(raw_html, raw_url)
+        checkDatabaseError(raw_html, raw_url)
         print("[!] Souping the `raw_html`")
         soup = BeautifulSoup(raw_html, 'html.parser')
         print("[!] Getting the table")
@@ -98,8 +98,8 @@ def main():
         all_timestamps = list(client.search('https://www.worldometers.info/coronavirus'))
 
         print(f"[!] Getting the snapshot from `{snapshot_time}` of date `{date}`")
-        getCheckSnapshot(snapshot_time, all_timestamps)
-        
+        raw_url, view_url = getSnapshotFromTime(snapshot_time, all_timestamps, date)
+
         date = '-'+date
         print("[!] `file_name`: "+"data"+date)
         file_name = "data"+date
@@ -112,7 +112,7 @@ def main():
         print("[!] Getting the `raw_html` from the response")
         raw_html = response.text
         print("[!] Checking for database 1040 error from WayBackMachine")
-        getCheckDatabaseError(raw_html, raw_url)
+        checkDatabaseError(raw_html, raw_url)
         print("[!] Souping the `raw_html`")
         soup = BeautifulSoup(raw_html, 'html.parser')
         print("[!] Getting the table")

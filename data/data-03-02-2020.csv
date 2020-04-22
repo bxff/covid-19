@@ -1,4 +1,4 @@
-country,total_cases,feb_3_cases,total_deaths,feb_3__deaths,total_recovered,total_critical,region
+country,total_cases,feb_3_cases,total_deaths,feb_3_deaths,total_recovered,total_critical,region
 China,"17,302",+97,361,,512,"2,296",Asia
 Japan,20,,,,,,Asia
 Thailand,19,,,,7,,Asia

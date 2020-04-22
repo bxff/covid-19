@@ -1,4 +1,4 @@
-country,total_cases,feb_4__cases,total_deaths,feb_4__deaths,total_recovered,total_critical,region
+country,total_cases,feb_4_cases,total_deaths,feb_4_deaths,total_recovered,total_critical,region
 China,"23,658","+3,220",490,+65,861,"2,788",Asia
 Thailand,25,+6,,,7,1,Asia
 Singapore,24,+6,,,1,,Asia

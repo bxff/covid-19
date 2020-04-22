@@ -1,4 +1,4 @@
-country__other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious___critical,region
+country_other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious__critical,region
 China,"70,553","+2,053","1,771",+106,"11,158","11,272",Asia
 Cruise Ship,454,+99,,,17,19,
 Singapore,75,,,,19,5,Asia

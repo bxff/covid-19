@@ -1,4 +1,4 @@
-country__territory,total_cases,feb_10_11__cases,total_deaths,feb_10_11__deaths,total_recovered,total_severe,region
+country_territory,total_cases,feb_10_11_cases,total_deaths,feb_10_11_deaths,total_recovered,total_severe,region
 China,"42,670","+2,499","1,016",+108,"4,318","7,333",Asia
 Japan,163,+67,,,4,,Asia
 Hong Kong,49,+13,1,,,,Asia

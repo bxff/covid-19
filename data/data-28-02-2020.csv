@@ -1,4 +1,4 @@
-country__other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious___critical,region
+country_other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious__critical,region
 China,"78,832",+8,"2,788",,"36,476","7,952",Asia
 S. Korea,"2,337",+571,16,+3,24,7,Asia
 Italy,889,+234,21,+4,46,64,Europe

@@ -1,4 +1,4 @@
-country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests__1m_pop
+country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests_1m_pop
 World,"1,199,064","+82,402","64,650","+5,476","246,166","888,248","42,324",154,8.3,,
 USA,"309,728","+32,567","8,441","+1,037","14,741","286,546","8,206",936,26,"1,626,287","4,913"
 Spain,"126,168","+6,969","11,947",+749,"34,219","80,002","6,532","2,699",256,"355,000","7,593"

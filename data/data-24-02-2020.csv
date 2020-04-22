@@ -1,4 +1,4 @@
-country__other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious___critical,region
+country_other,total_cases,new_cases,total_deaths,newdeaths,total_recovered,serious__critical,region
 China,"77,345",,"2,593",+1,"25,066","11,477",Asia
 S. Korea,833,+231,8,+2,22,6,Asia
 Diamond Princess,691,,3,,2,36,

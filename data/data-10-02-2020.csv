@@ -1,4 +1,4 @@
-country__territory,total_cases,feb_9_10__cases,total_deaths,feb_9_10__deaths,total_recovered,total_severe,region
+country_territory,total_cases,feb_9_10_cases,total_deaths,feb_9_10_deaths,total_recovered,total_severe,region
 China,"40,199","+3,001",908,+97,"3,623","6,484",Asia
 Japan,161,+72,,,4,,Asia
 Singapore,45,+5,,,7,7,Asia

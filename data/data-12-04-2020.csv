@@ -1,4 +1,4 @@
-country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests__1m_pop,continent
+country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests_1m_pop,continent
 North America,"598,238","+29,289","23,472","+1,680","41,823","532,943","12,761",,,,,North America
 Europe,"881,110","+28,211","76,768","+3,143","221,548","582,794","29,929",,,,,Europe
 Asia,"298,114","+10,831","10,987",+390,"146,486","140,641","6,597",,,,,Asia

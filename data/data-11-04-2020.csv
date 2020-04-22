@@ -1,13 +1,13 @@
-country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests__1m_pop,continent
-North America,"568,013","+31,172","21,770","+1,948","37,443","508,800","12,312",,,,,North America
+country_other,totalcases,newcases,totaldeaths,newdeaths,totalrecovered,activecases,serious_critical,tot_cases_1m_pop,deaths_1m_pop,totaltests,tests_1m_pop,continent
+North America,"568,162","+31,321","21,777","+1,955","37,923","508,462","12,312",,,,,North America
 Europe,"852,899","+32,790","73,625","+3,562","210,127","569,147","29,996",,,,,Europe
 Asia,"286,441","+11,354","10,588",+361,"142,458","133,395","6,618",,,,,Asia
 South America,"47,898","+2,922","1,941",+132,"5,224","40,733","1,241",,,,,South America
 Oceania,"7,702",+94,60,+4,"3,688","3,954",85,,,,,Australia/Oceania
-Africa,"14,218",+679,745,+48,"2,457","11,016",158,,,,,Africa
+Africa,"14,220",+681,745,+48,"2,457","11,018",158,,,,,Africa
 ,721,,13,,619,89,10,,,,,
-World,"1,777,892","+79,011","108,742","+6,055","402,016","1,267,134","50,420",228,14.0,,,All
-USA,"531,943","+29,067","20,555","+1,808","29,818","481,570","11,320","1,607",62,"2,671,008","8,069",North America
+World,"1,778,043","+79,162","108,749","+6,062","402,496","1,266,798","50,420",228,14.0,,,All
+USA,"532,092","+29,216","20,562","+1,815","30,298","481,232","11,320","1,608",62,"2,671,008","8,069",North America
 Spain,"163,027","+4,754","16,606",+525,"59,109","87,312","7,371","3,487",355,"355,000","7,593",Europe
 Italy,"152,271","+4,694","19,468",+619,"32,534","100,269","3,381","2,518",322,"963,473","15,935",Europe
 France,"129,654","+4,785","13,832",+635,"26,391","89,431","6,883","1,986",212,"333,807","5,114",Europe
@@ -193,6 +193,7 @@ Chad,11,,,,2,9,,0.7,,,,Africa
 Greenland,11,,,,11,0,,194,,770,"13,564",North America
 Seychelles,11,,,,,11,,112,,,,Africa
 Suriname,10,,1,,4,5,,17,2,,,South America
+Sierra Leone,10,+2,,,,10,,1,,,,Africa
 MS Zaandam,9,,2,,,7,,,,,,
 Gambia,9,+5,1,,2,6,,4,0.4,281,116,Africa
 Nicaragua,9,+2,1,,,8,,1,0.2,,,North America
@@ -202,7 +203,6 @@ Montserrat,9,,,,,9,1,"1,803",,36,"7,212",North America
 Cabo Verde,8,+1,1,,1,6,,14,2,,,Africa
 CAR,8,,,,,8,,2,,,,Africa
 Vatican City,8,,,,2,6,,"9,988",,,,Europe
-Sierra Leone,8,,,,,8,,1,,,,Africa
 Mauritania,7,,1,,2,4,,2,0.2,380,82,Africa
 St. Barth,6,,,,1,5,,607,,,,North America
 Western Sahara,6,+2,,,,6,,10,,,,Africa

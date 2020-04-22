@@ -2,7 +2,7 @@ name: Everyday Data Collections Action
 
 on:
   schedule:
-    - cron: '50 23 * * *'
+    - cron: '55 23 * * *'  # Five mins before 24:00:00
 
 jobs:
   build:

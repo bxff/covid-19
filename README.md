@@ -59,6 +59,7 @@ python3 Scrap_wayback.py [<--raw-url>|<-r>] <raw_url>
     * Make `Scrap_wayback.py` use multiprocess for faster processing
     * Make a cleaner python application to clean the data from `statistics/curve/get_data.py`
     * Make better way of extracting `argv`(s)
+    * Make colored logs...
 * Make a pipy library from it
     * Make a proper doc of how to use the lib
 * Work on better README

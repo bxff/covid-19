@@ -10,6 +10,7 @@ def getTableList(soup_object:object):
         text = text.replace('/', '_')
         text = text.replace('\n', '_')         
         text = text.replace('\xa0', '_')
+        text = text.replace('__', '_')
         titles.append(text)
 
     # getting the table
